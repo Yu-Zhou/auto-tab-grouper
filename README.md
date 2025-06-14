@@ -1,0 +1,1 @@
+This is motivated by my own pain point when using Chrome. Since I quickly get interested in too many things on the same time, I cannot organize my chrome tabs well. Hope this is useful to some one. :)
