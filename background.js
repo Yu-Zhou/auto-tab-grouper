@@ -103,6 +103,17 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   }
 });
 
+/* istanbul ignore next: expose internals for unit tests */
+if (typeof module !== 'undefined') {
+  module.exports = {
+    domainFromUrl,
+    groupTitleForTab,
+    state,
+    createGroupForTab,
+    addTabToExistingGroup
+  };
+}
+
 // ---------------------------
 //  End of file
 // ---------------------------
